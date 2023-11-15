@@ -4,7 +4,7 @@ var Attribute =
     '<a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a>, ' +
     'Imagery © <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>',
   mapUrl =
-    "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFsZWVzaGEzMiIsImEiOiJjbHAwZDRoZDUwOGJhMndvNXV4M21iZ3FlIn0.Z72ihyZZHSwWkCs0gqVTaQttps://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFsZWVzaGEzMiIsImEiOiJjbHAwZDRoZDUwOGJhMndvNXV4M21iZ3FlIn0.Z72ihyZZHSwWkCs0gqVTaQ";
+    "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFsZWVzaGEzMiIsImEiOiJjbHAwZDRoZDUwOGJhMndvNXV4M21iZ3FlIn0.Z72ihyZZHSwWkCs0gqVTaQ";
 
 var grayscale = L.tileLayer(mapUrl, {
     id: "mapbox/light-v9",
