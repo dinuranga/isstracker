@@ -80,4 +80,4 @@ async function getISS() {
 }
 
 getISS();
-setInterval(getISS, 100);
+setInterval(getISS, 500);
